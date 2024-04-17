@@ -35,6 +35,6 @@ spark_api_secret=""
 python run_gradio.py
 ```
 
-4、打开http://localhost:7860/即可看到聊天机器人界面（如果部署在服务器上，就把localhost换成相应IP）：
+4、打开 http://localhost:7860 即可看到聊天机器人界面（如果部署在服务器上，就把localhost换成相应IP）：
 
-![image-20240417094802714](.\figures\界面展示.png)
+![image-20240417094802714](figures\界面展示.png)
