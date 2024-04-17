@@ -25,7 +25,7 @@ OPENAI_API_KEY=""
 wenxin_api_key=""
 wenxin_secret_key=""
 spark_api_key=""
-spark_appid"]=""
+spark_appid=""
 spark_api_secret=""
 ```
 
