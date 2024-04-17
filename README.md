@@ -35,6 +35,6 @@ spark_api_secret=""
 python run_gradio.py
 ```
 
-4、打开[Gradio](http://127.0.0.1:7860/)即可看到聊天机器人界面：
+4、打开http://localhost:7860/即可看到聊天机器人界面（如果部署在服务器上，就把localhost换成相应IP）：
 
-![image-20240417094802714](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20240417094802714.png)
+![image-20240417094802714](.\figures\界面展示.png)

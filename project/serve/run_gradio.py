@@ -3,6 +3,7 @@
 import sys
 import os  # 用于操作系统相关的操作，例如读取环境变量
 
+sys.path.append(os.path.dirname(os.path.dirname(os.path.dirname(__file__))))
 sys.path.append(os.path.dirname(os.path.dirname(__file__)))
 
 import IPython.display  # 用于在 IPython 环境中显示数据，例如图片
@@ -262,4 +263,5 @@ gr.close_all()
 # 启动新的 Gradio 应用，设置分享功能为 True，并使用环境变量 PORT1 指定服务器端口。
 # demo.launch(share=True, server_port=int(os.environ['PORT1']))
 # 直接启动
-demo.launch()
+demo.launch(server_name='0.0.0.0', server_port=7860)
+
